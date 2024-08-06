@@ -34,33 +34,22 @@ display: block;
     ">
       <!---------COLUMNS CONTAINER-------->
       <!---------LEFT COLUMN START-------->
-      <div id="info" class="
+      <!----- INFO ---->
+      <div id="INFO" class="
       p-4 
       border-4 border-rose-950 rounded
-      break-inside-avoid-column
       text-rose-950
       flex-none
       text-sm
       ">
         <h2 class="font-medium">INFO</h2>
         French<br>
-        live in Tartu<br>
+        live in Tartu, Estonia<br>
         driving licence | have a car<br>
-        phone number on request
-        guillaume.ameline@protonmail.com
+        +33 (0) 7 83 85 63 84<br>
+        guillaume <span class="italic font-bold">dot</span> ameline <span class="italic font-bold">at</span> protonmail
+        <span class="italic font-bold">dot</span> com
       </div> <!----- end first column ---->
-      <!----- SUMMARY---->
-      <div id="SUMMARY" class="
-      p-4
-      border-4 border-purple-950 rounded
-      text-purple-950
-      flex-none
-      ">
-        <h2 class="font-medium">SUMMARY</h2>
-        <p class="italic font-medium pt-1 font-mono">
-          I am a full stack developer student at kood/Jõhvi with 7 years of experience as a material engineer.
-        </p>
-      </div>
       <!----- KOOD---->
       <div id="kood/Johvi" class="
       p-4
@@ -83,27 +72,94 @@ display: block;
           gap-4
           grow
           ">
+          <div id="PYTHON" class="
+            border-4 border-amber-100 bg-amber-100 text-sky-900 p-3 rounded 
+            basis-full
+            order-0
+            ">
+            AI
+            <span class="float-right"> <img class="h-10" src="./icons/python-logo-only.svg"> </span>
+            <p class="text-base font-medium">
+              data wrangling ◆
+              feature engineering ◆ <br>
+              Exploratory Data Analysis ◆ <br>
+              model selection ◆ <br>
+              Natural Language Processing<br>
+            </p>
+            <!----- Python icons div ---->
+            <div id="langs" class="
+              font-bold
+              flex flex-wrap flex-row
+              justify-between
+              gap-2
+              grow
+              mt-2
+              ">
+              <div id="NUMPY" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/numpy.svg">
+                </span>
+              </div>
+              <div id="PANDAS" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/pandas.svg">
+                </span>
+              </div>
+              <div id="SCIKIT" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/scikit-learn-logo-without-subtitle.svg">
+                </span>
+              </div>
+              <div id="KERAS" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/Keras_logo.svg">
+                </span>
+              </div>
+              <div id="SPACY" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/SpaCy_logo.svg">
+                </span>
+              </div>
+              <div id="CONDA" class="
+              border-2 border-sky-900 p-1 rounded
+              ">
+                <span class="">
+                  <img class="h-5 " src="./icons/conda.svg">
+                </span>
+              </div>
+            </div>
+          </div>
           <div id="JS" class="
-            border-4  border-yellow-300 bg-yellow-300 p-1 rounded
+            border-4  border-yellow-300 bg-yellow-300 p-3 rounded
             text-black
             basis-full
             order-0
             ">
-            JavaScript
+            frontend
             <span class="float-right"> <img class="border border-black h-10" src="./icons/js.jpg"> </span>
             <p class="text-base font-medium">
               forum ◆ instant chat ◆ <br>file handling
               ◆ user interface ◆ DOM manipulation
               ◆ html ◆ css styling ◆ framework
-              ◆ browser game
+              ◆ in-browser game
             </p>
           </div>
           <div id="GO" class="
-            border-4 border-cyan-600 bg-cyan-600 text-white p-1 rounded
+            border-4 border-cyan-600 bg-cyan-600 text-white p-3 rounded
             basis-full
-            order-first
+            order-0
             ">
-            Golang
+            backend
             <span class="float-right"> <img class="h-7 bg-cyan-600" src="./icons/go_logo_white.svg">
             </span>
             <p class="text-base font-medium">
@@ -113,22 +169,6 @@ display: block;
               ◆ concurrent programing ◆ algorithms
               ◆ unit testing
             </p>
-          </div>
-          <div id="RUST" class="
-            border-4 border-black p-1 rounded
-            ">
-            Rust (upcoming)&ensp;
-            <span class="float-right">
-              <img class="h-6 " src="./icons/rust-logo-blk.svg">
-            </span>
-          </div>
-          <div id="HASKELL" class="
-            border-4 border-fuchsia-800 text-purple-800 p-1 rounded
-            ">
-            Haskell&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/haskelll.png">
-            </span>
           </div>
           <div id="GIT" class="
             border-4 border-orange-600 bg-orange-600 text-white p-1 rounded
@@ -170,12 +210,12 @@ display: block;
               <img class="h-5 " src="./icons/linux.jpg">
             </span>
           </div>
-          <div id="GRAPQL" class="
-            border-4 border-pink-600 bg-white text-pink-600 p-1 rounded
+          <div id="HASKELL" class="
+            border-4 border-fuchsia-800 text-purple-800 p-1 rounded
             ">
-            GrapQL&ensp;
+            Haskell&ensp;
             <span class="float-right">
-              <img class="h-5 " src="./icons/GraphQL_Logo.svg_.png">
+              <img class="h-5 " src="./icons/haskelll.png">
             </span>
           </div>
         </div>
@@ -183,10 +223,23 @@ display: block;
       <!----- start second column ---->
     </div>
     <!---------RIGHT COL START-------->
-    <div id="right col" class="
+    <div id="RIGHT COL" class="
     flex flex-col
     justify-between
     ">
+      <!----- SUMMARY ---->
+      <div id="SUMMARY" class="
+      p-4
+      border-4 border-purple-950 rounded
+      text-purple-950
+      flex-none
+      text-sm
+      ">
+        <h2 class="font-medium">SUMMARY</h2>
+        <p class="italic font-medium pt-1 font-mono">
+          I am a full stack developer finishing kood/Jõhvi with 7 years of experience as a material engineer.
+        </p>
+      </div>
       <div id="ENGINEERING" class="
       p-4 
       border-4 border-teal-950 rounded
@@ -195,45 +248,50 @@ display: block;
       flex
       ">
         <p>
-        <h2 class="font-medium">ENGINEERING <span class="float-right">2011 → 2022</span>EXPERIENCE</h2>
+        <h2 class="font-medium">ENGINEERING EXPERIENCE<span class="float-right">2011 → 2022</span></h2>
         </p>
         <!-----LIST SKILLS ENGINEERING---->
         <div id="SKILLS" class="py-2">
+          <!--
           <h3 class="">Skills</h3>
+          -->
           <div id="eng skills" class="
             flex flex-wrap flex-row
             justify-start
             gap-2
             ">
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> data anlysis
             </div>
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> process simulation
             </div>
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> modelisation
             </div>
+            <!--
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> instrumentation
             </div>
+            -->
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> parameters optimization
             </div>
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> certification
             </div>
             <div class="
-              text-sm bg-teal-950 text-white py-1 px-2 rounded
+              text-xs bg-teal-950 text-white py-1 px-2 rounded
               "> process control
             </div>
           </div>
+
         </div>
         <!-----LIST COMPANIES---->
         <div id="EXPERIENCE" class="">

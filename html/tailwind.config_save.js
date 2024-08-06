@@ -1,16 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
 module.exports = {
   content: ["./gameline.html"],
   theme: { 
     extend: { 
-      colors: {
-        ...colors,
-      }
+      // Remove the colors spread as it's unnecessary
     }
   },
   plugins: [
     require('@tailwindcss/typography'),  
   ]
 }
-
