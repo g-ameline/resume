@@ -48,7 +48,7 @@
       each server run in a different container and start of all 3 containers is automated
       database is generated and populated procedurally from scratch
 
-- [videogame in browser](https://github.com/g-ameline/brick-breaker-in-browser.git)
+- [game in browser](https://github.com/g-ameline/brick-breaker-in-browser.git)
   - **JavaScript**, HTML
 
       simple full vanilla JavaScript brick-breaker game prototype with physic collision handling   
