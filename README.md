@@ -2,10 +2,10 @@
 # Guillaume Ameline - junior developer engineer 
 
 ## info
-- live in Tartu, Estonia
-- have a driving license and a car
-- guillaume ***dot*** ameline ***at*** protonmail ***dot*** com
-- +33 (0) 7 83 85 63 84 
+- location: live in Tartu, Estonia
+- driving: license + car
+- @: guillaume ***dot*** ameline ***at*** protonmail ***dot*** com
+- phone: +33 (0) 7 83 85 63 84 
 
 ## summary
 - looking for a first developer experience as programmer
@@ -51,7 +51,7 @@
 - [game in browser](https://github.com/g-ameline/brick-breaker-in-browser.git)
   - **JavaScript**, HTML
 
-      simple full vanilla JavaScript brick-breaker game prototype with physic collision handling   
+      simple full vanilla JavaScript/HTML/css brick-breaker game prototype with physic collision handling   
       
 ## material engineer experiences
 
