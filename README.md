@@ -2,7 +2,7 @@
 # Guillaume Ameline - junior developer engineer 
 
 ## info
-- location: live in Tartu, Estonia
+- location: Tartu, Estonia
 - driving: license + car
 - @: guillaume ***dot*** ameline ***at*** protonmail ***dot*** com
 - phone: +33 (0) 7 83 85 63 84 
