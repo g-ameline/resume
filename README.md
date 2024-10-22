@@ -1,6 +1,6 @@
 
 # Guillaume Ameline
-programmer & material engineer 
+# programmer & material engineer 
 
 ## info
 - location: Tartu, Estonia
