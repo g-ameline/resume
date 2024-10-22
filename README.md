@@ -17,11 +17,13 @@
   *All projects developed as part of the kood/Jõhvi curriculum,*   
   *using Git for version control, Linux environment, and containerized with Docker.*
 
-- AI
-  - **Python**, numpy, pandas, keras, spacy
+- AI 
+  [automl stock price prediction](https://github.com/g-ameline/automl_prediction_nyse)
+  [facial emotion recogntion](https://github.com/g-ameline/face_detection_emotion_recognition)
+  - **Python**, numpy, pandas, keras, spacy, autogluon
 
       various classic projects eg: titanic survival prediction, number recognition, face/emotion detection  
-      involving different models ex: random forest, neural networks, XGBoost, NLP, etc.    
+      involving different models ex: random forest, neural networks, XGBoost, NLP, etc.
     
 - [multiplayer game](https://github.com/g-ameline/bomberman): 
   - **Elixir**, **JavaScript** 
