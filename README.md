@@ -1,5 +1,5 @@
 
-# Guillaume Ameline - junior developer engineer 
+# Guillaume Ameline - programmer & material engineer 
 
 ## info
 - location: Tartu, Estonia
