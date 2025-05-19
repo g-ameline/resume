@@ -993,3 +993,8 @@ video {
   --tw-text-opacity: 1;
   color: rgb(66 32 6 / var(--tw-text-opacity));
 }
+
+.text-teal-950 {
+  --tw-text-opacity: 1;
+  color: rgb(4 47 46 / var(--tw-text-opacity));
+}
