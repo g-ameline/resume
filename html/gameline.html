@@ -4,15 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./style/output.css" rel="stylesheet" style="text/css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="
-max-w-3xl p-3 mx-auto my-auto border-4 border-gray-700 rounded-2xl 
-" style="
-width: 21cm;
-height: 29.7cm;
-display: block;
+  max-w-3xl p-3 mx-auto my-auto border-4 border-gray-700 rounded-2xl 
+" 
+style="
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
 ">
   <div id="header" class="
   p-8 
@@ -20,371 +21,435 @@ display: block;
   flex items-center justify-center
   ">
     <h1 class="text-4xl font-medium font-sans">Guillaume Ameline</h1>
+    <div class="ml-4 text-lg text-gray-600">programmer & material engineer</div>
   </div>
   <!---------MAIN STUFF-------->
   <div id="main" class="
-  grid grid-cols-2
-  gap-4
-  h-[60rem]
+    grid grid-cols-2
+    gap-4
+    h-auto
   ">
     <!---------2 COLUMN-------->
     <div id="left col" class="
-    flex flex-col
-    justify-between
+      flex flex-col
+      gap-4
+      justify-between
     ">
       <!---------COLUMNS CONTAINER-------->
       <!---------LEFT COLUMN START-------->
-      <!----- INFO ---->
-      <div id="INFO" class="
-      p-4 
-      border-4 border-rose-950 rounded
-      text-rose-950
-      flex-none
-      text-sm
+      <!----- SUMMARY ---->
+      <div id="SUMMARY" class="
+        p-4
+        border-4 border-purple-950 rounded
+        text-purple-950
+        flex-none
+        text-sm
+        justify-evenly
+        flex-none
       ">
-        <h2 class="font-medium">INFO</h2>
-        location: Tartu, Estonia<br>
-        nationality: French<br>
-        driving: license + car<br>
-        phone: +33 (0) 7 83 85 63 84<br>
-        @: guillaume <span class="italic font-bold">dot</span> ameline <span class="italic font-bold">at</span>
-        protonmail
-        <span class="italic font-bold">dot</span> com
-        git: <a href="url">https://github.com/g-ameline/resume</a>
-      </div> <!----- end first column ---->
+        <h2 class="font-medium">SUMMARY</h2>
+        <p class="italic font-medium pt-1 font-mono">
+          Full-stack functional programmer and 
+          experienced material engineer.
+        </p>
+      </div>
+
+      <!----- INFO ---->
+      <!-- <div id="INFO" class=" -->
+        <!-- p-4 --> 
+        <!-- border-4 border-rose-950 rounded -->
+        <!-- text-rose-950 -->
+        <!-- flex-none -->
+        <!-- text-sm -->
+        <!-- justify-evenly -->
+      <!-- "> -->
+        <!-- <h2 class="font-medium">INFO</h2> -->
+        <!-- location: Tartu, Estonia<br> -->
+        <!-- driving: license + car<br> -->
+        <!-- phone: +33 (0) 7 83 85 63 84<br> -->
+        <!-- @: --> 
+        <!-- <span class ="text-xs"> -->
+          <!-- guillaume <span class="italic font-bold">dot</span> ameline <span class="italic font-bold">at</span> -->
+          <!-- protonmail <span class="italic font-bold">dot</span> com -->
+        <!-- </span> -->
+        <!-- <br> -->
+        <!-- git: <a href="https://github.com/g-ameline">https://github.com/g-ameline</a> -->
+      <!-- </div> -->
+
+      <!----- CURRENT PROGRAMMING EXPERIENCE ---->
+      <div id="programming-experience" class="
+      p-4
+      border-4 border-green-900 rounded 
+      text-green-900
+      flex-col
+      flex
+      ">
+        <h2 class="font-medium">
+          PROGRAMMING EXPERIENCE 
+        </h2>
+        <div id="ENG EXPERIENCE" class="mt-3">
+          <ul class="space-y-2">
+            <li>
+              <p>
+                <span class="italic font-bold">Programmer</span>
+                <span class="float-right"><a href="https://landscape-geoinformatics.ut.ee/">TARTU ÜLIKOOL</a></span>
+              </p>
+              <p>
+                <span>Dec 2024 → now</span>
+                <span class="float-right">Estonia</span>
+              </p>
+              <p class="text-sm">
+                Coding <span class="font-bold">Elixir Phoenix Liveview</span> GIS app
+                <br>Design data model for GIS app
+                <br>Set Keycloak OpenAuth authentication
+              </p>
+            </li>
+            
+            <li>
+              <p>
+                <span class="italic font-bold">Full-stack Developer</span>
+                <span class="float-right"><a href="https://geolynx.ee/">GEOLYNX</a></span>
+              </p>
+              <p>
+                <span>Nov 2024 → May 2025</span>
+                <span class="float-right">Estonia</span>
+              </p>
+              <p class="text-sm">
+                Coding <span class="font-bold">Elixir Phoenix Liveview</span> GIS app
+                <br>Integrating <span class="font-bold">MapLibre</span> into server rendering view
+                <br>Emplementing complex user interactions
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-4">
+          <div class="
+            flex flex-wrap gap-1 mt-2 text-xs
+            justify-end
+          ">
+            <div class="align-middle p-1 text-base grow">Stack:</div>
+            <div id="ELIXIR" class="
+              border-4 border-fuchsia-800 text-fuchsia-900 p-1 rounded
+              flex items-center
+              ">
+              Elixir&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/elixir.svg">
+              </span>
+            </div>
+            <div id="PHOENIX" class="
+              border-4 border-orange-600 border-orange-600 text-orange-700 p-1 rounded
+              flex items-center
+              ">
+              Phoenix&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/phoenix.svg">
+              </span>
+            </div>
+            <div id="TAILWIND" class="
+              border-4 border-sky-400 text-sky-600 p-1 rounded
+              flex items-center
+              ">
+              tailwind&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/tailwind.svg">
+              </span>
+            </div>
+            <div id="POSTGRESQL" class="
+              border-4 p-1 rounded
+              border-sky-700
+              text-black
+              flex items-center
+              ">
+              PostgreSQL&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/postgresql.svg">
+              </span>
+            </div>
+            <div id="GIT" class="
+              border-4 border-orange-600 bg-orange-600 text-white p-1 rounded
+              flex items-center
+              ">
+              git&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/git.svg">
+              </span>
+            </div>
+            <div id="JAVASCRIPT" class="
+              border-4 border-yellow-300 bg-yellow-300 text-black p-1 rounded
+              flex items-center
+              ">
+              JavaScript&ensp;
+              <span class="float-right">
+                <img class="h-5 border border-black" src="./icons/js.jpg">
+              </span>
+            </div>
+            <div id="DOCKER" class="
+              border-4 border-indigo-600 bg-indigo-600 text-white p-1 rounded
+              flex items-center
+              ">
+              docker&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/docker.svg">
+              </span>
+            </div>
+            <div id="PYTHON" class="
+              border-4 border-yellow-300 text-sky-800 p-1 rounded
+              flex items-center
+              ">
+              python&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/python-logo-only.svg">
+              </span>
+            </div>
+
+            
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <div class="
+            flex flex-wrap gap-1 mt-2 text-xs
+            justify-end
+          ">
+            
+            <div class="align-middle p-2 text-base grow">Others:</div>
+            <div id="SQLITE" class="
+              border-4 border-sky-400 text-sky-900 p-1 rounded
+              flex items-center
+              ">
+              SQLite&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/Sqlite-square-icon.svg.png">
+              </span>
+            </div>
+            <div id="SHELL" class="
+              border-4 border-slate-700 bg-slate-700 text-white p-1 rounded
+              flex items-center
+              ">
+              shell&ensp;
+              <span class="float-right">
+                <img class="h-5" src="./icons/bash_full_colored_light.png">
+              </span>
+            </div>
+            <div id="LINUX" class="
+              border-4 border-yellow-400 bg-white text-black p-1 rounded
+              flex items-center
+              ">
+              linux&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/linux.jpg">
+              </span>
+            </div>
+            <div id="GOLANG" class="
+              border-4 border-cyan-600 bg-cyan-600 text-white p-1 rounded
+              flex items-center
+              ">
+              golang&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/go_logo_white.svg">
+              </span>
+            </div>
+            <div id="NIX" class="
+              p-1 rounded
+              border-4 
+              border-sky-300 
+              text-blue-800
+              flex items-center
+              "
+            >
+              Nix&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/nix.svg">
+              </span>
+            </div>
+            <div id="ZIG" class="
+              p-1 rounded
+              border-4 
+              border-black
+              text-white
+              bg-black
+              flex items-center
+            ">
+              Zig&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/zig.svg">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!----- KOOD---->
       <div id="kood/Johvi" class="
       p-4
-      border-4 border-neutral-900 rounded  text-neutral-900
-      break-inside-avoid-column
+      border-4 border-neutral-900 rounded text-neutral-900
       flex-none
       ">
         <h2 class="font-medium">IT TRAINING <span class="float-right">2022 → 2024</span></h2>
-        <h3 class="p-2">KOOD/JÕHVI&ensp;
+        <!-- <h3 class="pt-1 font-semibold text-sm">KOOD/JÕHVI</h3> -->
+        <h3 class="pt-1">KOOD/JÕHVI&ensp;
           <span class="">
             <a href="https://kood.tech/">
               <img class="inline-block h-7 " src="./icons/kood_bubble.svg">
             </a>
           </span>
         </h3>
-        <div id="langs" class="
-          font-bold
-          flex flex-wrap flex-row
-          justify-between
-          gap-4
-          grow
-          ">
-          <div id="PYTHON" class="
-            border-4 border-amber-100 
-            bg-amber-100 
-            text-sky-900 
-            p-2 
-            rounded 
-            basis-full
-            order-0
-            ">
-            AI
-            <span class="float-right"> <img class="h-10" src="./icons/python-logo-only.svg"> </span>
-            <p class="text-base font-medium">
-              data wrangling ◆
-              feature engineering ◆ <br>
-              Exploratory Data Analysis ◆ <br>
-              model selection ◆ <br>
-              Natural Language Processing<br>
-            </p>
-            <!----- Python icons div ---->
-            <div id="langs" class="
-              font-bold
-              flex flex-wrap flex-row
-              justify-between
-              gap-2
-              grow
-              mt-2
-              ">
-              <div id="NUMPY" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/numpy.svg">
+        
+        <div class="mt-2 text-sm">
+          <div class="space-y-1">
+
+
+              <div>
+                <span class="italic font-bold">
+                  Multiplayer Game:
                 </span>
+                Elixir + JavaScript bomberman
               </div>
-              <div id="PANDAS" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/pandas.svg">
+              <div>
+                <span class="italic font-bold">
+                  Social Network:
                 </span>
+                Go + HTMX Instagram/Facebook clone
               </div>
-              <div id="SCIKIT" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/scikit-learn-logo-without-subtitle.svg">
+              <div>
+                <span class="italic font-bold">
+                  AI Projects:
                 </span>
+                Stock prediction, facial emotion recognition
               </div>
-              <div id="KERAS" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/Keras_logo.svg">
+              <div>
+                <span class="italic font-bold">
+                  Browser Game:
                 </span>
+                Vanilla JavaScript brick-breaker
               </div>
-              <div id="SPACY" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/SpaCy_logo.svg">
-                </span>
-              </div>
-              <div id="CONDA" class="
-              border-2 border-sky-900 p-1 rounded
-              ">
-                <span class="">
-                  <img class="h-5 " src="./icons/conda.svg">
-                </span>
-              </div>
-            </div>
           </div>
-          <div id="JS" class="
-            border-4  border-yellow-300 
-            rounded
-            bg-yellow-300 
-            p-2 
-            text-black
-            basis-full
-            order-0
-            ">
-            frontend
-            <span class="float-right"> <img class="border border-black h-10" src="./icons/js.jpg"> </span>
-            <p class="text-base font-medium">
-              forum ◆ instant chat ◆ <br>file handling
-              ◆ user interface ◆ DOM manipulation
-              ◆ html ◆ css styling ◆ framework
-              ◆ in-browser game
-            </p>
-          </div>
-          <div id="GO" class="
-            border-4 border-cyan-600 
-            rounded
-            bg-cyan-600 
-            text-white 
-            p-2 
-            basis-full
-            order-0
-            ">
-            backend
-            <span class="float-right"> <img class="h-7 bg-cyan-600" src="./icons/go_logo_white.svg">
-            </span>
-            <p class="text-base font-medium">
-              web server ◆ app server ◆ data server
-              ◆ web sockets ◆ REST API ◆ Ajax
-              ◆ hashing ◆ JWT
-              ◆ concurrent programing ◆ algorithms
-              ◆ unit testing
-            </p>
-          </div>
-          <div id="GIT" class="
-            border-4 border-orange-600 bg-orange-600 text-white p-1 rounded
-            ">
-            git&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/git.svg">
-            </span>
-          </div>
-          <div id="DOCKER" class="
-            border-4 border-indigo-600 bg-indigo-600 text-white p-1 rounded
-            ">
-            docker&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/docker.svg">
-            </span>
-          </div>
-          <div id="SQLITE" class="
-            border-4 border-sky-400 text-sky-900 p-1 rounded
-            ">
-            SQLite&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/Sqlite-square-icon.svg.png">
-            </span>
-          </div>
-          <div id="SHELL" class="
-            border-4 border-slate-700 bg-slate-700 text-white p-1 rounded
-            ">
-            shell&ensp;
-            <span class="float-right">
-              <img class="h-5" src="./icons/bash_full_colored_light.png">
-            </span>
-          </div>
-          <div id="LINUX" class="
-            border-4 border-yellow-400 bg-white text-black p-1 rounded
-            ">
-            linux&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/linux.jpg">
-            </span>
-          </div>
-          <div id="elixir" class="
-            border-4 border-fuchsia-800 text-fuchsia-900 p-1 rounded
-            ">
-            Elixir&ensp;
-            <span class="float-right">
-              <img class="h-5 " src="./icons/elixir.svg">
-            </span>
-          </div>
-          <!-- <div id="HASKELL" class=" -->
-          <!-- border-4 border-fuchsia-800 text-purple-800 p-1 rounded -->
-          <!-- "> -->
-          <!-- Haskell&ensp; -->
-          <!-- <span class="float-right"> -->
-          <!-- <img class="h-5 " src="./icons/haskelll.png"> -->
-          <!-- </span> -->
-          <!-- </div> -->
         </div>
       </div>
-      <!----- start second column ---->
     </div>
+
     <!---------RIGHT COL START-------->
     <div id="RIGHT COL" class="
     flex flex-col
+    gap-4
     justify-between
     ">
-      <!----- SUMMARY ---->
-      <div id="SUMMARY" class="
-      p-4
-      border-4 border-purple-950 rounded
-      text-purple-950
-      flex-none
-      text-sm
+      <!----- INFO ---->
+      <div id="INFO" class="
+        p-4 
+        border-4 border-rose-950 rounded
+        text-rose-950
+        flex-none
+        text-sm
+        justify-evenly
       ">
-        <h2 class="font-medium">SUMMARY</h2>
-        <p class="italic font-medium pt-1 font-mono">
-          I am a full stack developer completing kood/Jõhvi with 7 years of experience as a material engineer.
-        </p>
+        <h2 class="font-medium">INFO</h2>
+        location: Tartu, Estonia<br>
+        driving: license + car<br>
+        phone: +33 (0) 7 83 85 63 84<br>
+        @: 
+        <span class ="text-xs">
+          guillaume <span class="italic font-bold">dot</span> ameline <span class="italic font-bold">at</span>
+          protonmail <span class="italic font-bold">dot</span> com
+        </span>
+        <br>
+        git: <a href="https://github.com/g-ameline">https://github.com/g-ameline</a>
       </div>
+
+
+      <!----- SUMMARY ---->
+      <!-- <div id="SUMMARY" class=" -->
+      <!-- p-4 -->
+      <!-- border-4 border-purple-950 rounded -->
+      <!-- text-purple-950 -->
+      <!-- flex-none -->
+      <!-- text-sm -->
+      <!-- "> -->
+        <!-- <h2 class="font-medium">SUMMARY</h2> -->
+        <!-- <p class="italic font-medium pt-1 font-mono"> -->
+          <!-- Full-stack functional programmer and --> 
+          <!-- experienced material engineer. -->
+        <!-- </p> -->
+      <!-- </div> -->
+
+      <!----- ENGINEERING EXPERIENCE ---->
       <div id="ENGINEERING" class="
       p-4 
       border-4 border-teal-950 rounded
-      text-teal-950
+      text-blue-950
       flex-col
       flex
       ">
-        <p>
-        <h2 class="font-medium">ENGINEERING EXPERIENCE<span class="float-right">2011 → 2022</span></h2>
-        </p>
-        <!-----LIST SKILLS ENGINEERING---->
-        <div id="SKILLS" class="py-2">
-          <!--
-          <h3 class="">Skills</h3>
-          -->
-          <div id="eng skills" class="
-            flex flex-wrap flex-row
-            justify-start
-            gap-2
-            ">
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> data analysis
-            </div>
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> process simulation
-            </div>
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> modeling
-            </div>
-            <!--
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> instrumentation
-            </div>
-            -->
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> parameters optimization
-            </div>
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> certification
-            </div>
-            <div class="
-              text-xs bg-teal-950 text-white py-1 px-2 rounded
-              "> statistical process control
-            </div>
-          </div>
-
-        </div>
-        <!-----LIST COMPANIES---->
-        <div id="EXPERIENCE" class="">
-          <!-----<h3>history</h3>---->
-          <ul class="space-y-2
-            ">
-            <li id="LM WIND POWER">
+        <h2 class="font-medium">
+          ENGINEERING EXPERIENCE
+        </h2>
+        <div id="ENG EXPERIENCE" class="mt-3">
+          <ul class="space-y-2">
+            <li>
               <p>
-                <span class="italic font-bold">Testing engineer</span>
+                <span class="italic font-bold">Testing Engineer</span>
                 <span class="float-right"><a href="https://www.lmwindpower.com/">LM WIND POWER</a></span>
               </p>
-              <p class="">
-                <span class="">2020 → 2022</span>
+              <p>
+                <span>2020 → 2022</span>
                 <span class="float-right">Denmark</span>
               </p>
               <p class="text-sm">Handled test planning, provided technical support and performed simulations</p>
             </li>
-            <li id="SAFRAN COMPOSITES">
+            <li>
               <p>
-                <span class="italic font-bold">R&T engineer </span>
+                <span class="italic font-bold">R&T Engineer</span>
                 <span class="float-right"><a href="https://www.safran-group.com/">SAFRAN COMPOSITES</a></span>
               </p>
-              <p class="">
-                <span class="">2019 →2020</span>
-                <span class="float-right">France </span>
+              <p>
+                <span>2019 → 2020</span>
+                <span class="float-right">France</span>
               </p>
               <p class="text-sm">
-                Took care of testing and qualification of material/bonding in global group R&T center
+                Testing and developing IR laser surface treatment for bonding • 
+                Qualification of Discontinuous Long Fiber carbon composite
               </p>
             </li>
-            <li id="SAFRAN NACELLES">
+            <li>
               <p>
-                <span class="italic font-bold">Material engineer</span>
-                <span class="float-right"><a href="https://www.safran-group.com/companies/safran-nacelles">
-                    SAFRAN NACELLES</a></span>
+                <span class="italic font-bold">Material Engineer</span>
+                <span class="float-right"><a href="https://www.safran-group.com/companies/safran-nacelles">SAFRAN NACELLES</a></span>
               </p>
-              <p class="">
-                <span class="">2017</span>
-                <span class="float-right">France </span>
+              <p>
+                <span>2017</span>
+                <span class="float-right">France</span>
               </p>
-              <p class="text-sm">
-                Handled material/painting testing and qualification, provided technical support
-              </p>
+              <p class="text-sm">Material/painting testing and qualification • Technical support</p>
             </li>
-            <li id="MATIS">
+            <li>
               <p>
-                <span class="italic font-bold">Recovery engineer</span>
-                <span class="float-right"><a href="https://www.safran-group.com/companies/safran-nacelles">
-                    SAFRAN NACELLES</a></span>
+                <span class="italic font-bold">Recovery Engineer</span>
+                <span class="float-right"><a href="https://www.safran-group.com/companies/safran-nacelles">SAFRAN NACELLES</a></span>
               </p>
-              <span class="">2016</span>
-              <span class="float-right">France </span>
-              <p class="text-sm">
-                Performed defect analysis and support for damaged nacelle part recovery
+              <p>
+                <span>2016</span>
+                <span class="float-right">France</span>
               </p>
+              <p class="text-sm">Defect analysis and support for damaged nacelle part recovery</p>
             </li>
-            <li id="EPSILON COMPOSITE">
+            <li>
               <p>
-                <span class="italic font-bold">R&D engineer</span>
-                <span class="float-right"><a href="https://www.epsilon-composite.com/en/">ESPILON
-                    COMPOSITE</a></span>
+                <span class="italic font-bold">R&D Engineer</span>
+                <span class="float-right"><a href="https://www.epsilon-composite.com/en/">EPSILON COMPOSITE</a></span>
+              </p>
               <p>
-                <span class="">2011 → 2014</span>
-                <span class="float-right">France </span>
+                <span>2011 → 2014</span>
+                <span class="float-right">France</span>
               </p>
-              <p class="text-sm">
-                Performed testing, formulation and simulation on new composite materials
-              </p>
+              <p class="text-sm">Thermoset formulation • Process simulation • Composite materials testing</p>
             </li>
           </ul>
         </div>
       </div>
+
+      <!----- EDUCATION ---->
       <div id="EDUCATION" class="
       p-4 
       border-4 border-yellow-950 rounded
@@ -392,19 +457,21 @@ display: block;
       flex-none
       ">
         <h2 class="font-medium">EDUCATION <span class="float-right">2006 → 2011</span></h2>
-        <p class="text-sm">
-          <a href=" https://www.ensil-ensci.unilim.fr/">ENSIL</a>
-          : material science engineering school (master degree) : 3 years
-        </p>
-        <p class="text-sm">
-          <a href="https://www.iut.u-bordeaux.fr/general/but-sgm/">DUT Bordeaux</a>
-          : material science technician school : 2 years
-          <br>languages <span class="float-right">English : fluent | French : native</span>
-        </p>
+        <div class="space-y-2 text-sm">
+          <p>
+            <a href="https://www.ensil-ensci.unilim.fr/" class="font-semibold">ENSIL</a>: 
+            Material Science Engineering School (Master Degree) - 3 years
+          </p>
+          <p>
+            <a href="https://www.iut.u-bordeaux.fr/general/but-sgm/" class="font-semibold">DUT Bordeaux</a>: 
+            Material Science Technician School - 2 years
+          </p>
+          <div class="mt-3 pt-2 border-t border-yellow-700">
+            <strong>Languages:</strong> English (fluent) • French (native)
+          </div>
+        </div>
       </div>
-
     </div>
-    <!---------COLUMNS END-------->
+  </div>
 </body>
-
 </html>
