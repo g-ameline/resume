@@ -1,0 +1,472 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="
+  max-w-3xl p-3 mx-auto my-auto border-4 border-gray-700 rounded-2xl 
+" 
+style="
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+">
+  <!-- <div id="header" class=" -->
+  <!-- p-6 --> 
+  <!-- w-full -->
+  <!-- flex items-center justify-center -->
+  <!-- "> -->
+  <!-- </div> -->
+  
+  <!-- MAIN CONTENT -->
+  <div id="main" class="
+    flex 
+    flex-col
+    gap-y-3
+    h-auto
+    justify-around
+  ">
+    <!-- ROW 1: SUMMARY AND INFO -->
+    <div id="row-1" class="grid grid-cols-2 gap-4">
+      <!-- SUMMARY -->
+      <div id="SUMMARY" class="
+        p-4
+        text-purple-900
+        text-sm
+        justify-evenly
+        flex-none
+        text-center
+      ">
+        
+        <h1 class="text-2xl font-medium font-sans">Guillaume Ameline</h1>
+        <br>
+        <!-- <div class="ml-4 text-lg text-gray-600">material engineer & programmer</div> -->
+        
+        <!-- <h2 class="font-medium">SUMMARY</h2> -->
+        <p class="italic font-medium pt-1 font-mono">
+          Senior material engineer 7+ years<br>with full-stack programming experience
+        </p>
+      </div>
+
+      <!-- INFO -->
+      <div id="INFO" class="
+        p-4 
+        border-4 border-rose-900 rounded
+        text-rose-900
+        flex-none
+        text-sm
+        justify-evenly
+      ">
+        <h2 class="font-medium">INFO</h2>
+        location: Tartu, Estonia<br>
+        driving: license + car<br>
+        phone: +33 (0) 7 83 85 63 84<br>
+        mail: 
+        <span class ="text-xs">
+          guillaume <span class="italic font-bold">dot</span> ameline <span class="italic font-bold">at</span>
+          protonmail <span class="italic font-bold">dot</span> com
+        </span>
+      </div>
+    </div>
+
+
+
+<!-- ROW 2: SKILLS -->
+<div id="row-2" class="
+  p-4 
+  border-4 border-black rounded
+">
+  
+  <div class="
+    flex flex-wrap gap-2
+  ">
+      <!-- <div class="p-1 text-base font-medium w-32">Skills:</div> -->
+    <!-- Each category as a flex row -->
+    
+      <div class="
+        bg-white 
+        border-4 p-1 rounded border-amber-800 
+        text-xs text-amber-800
+      ">
+        <img class="h-5 " src="./icons/chemistry.svg">
+      </div>
+      
+    <!-- Materials Testing & Characterization -->
+      <div class="bg-amber-800 border-4 p-1 rounded border-amber-800 flex items-center text-xs text-white">DSC</div>
+      <div class="bg-amber-800 border-4 p-1 rounded border-amber-800 flex items-center text-xs text-white">DMA</div>
+      <div class="bg-amber-800 border-4 p-1 rounded border-amber-800 flex items-center text-xs text-white">Microscopy</div>
+      <div class="bg-amber-800 border-4 p-1 rounded border-amber-800 flex items-center text-xs text-white">Aging</div>
+    
+      <div class="bg-white border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-emerald-900">
+        <img class="h-5 " src="./icons/modeling.svg">
+      </div>
+    <!-- engineering -->
+      <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Statistical Process Control</div>
+      <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Material Modeling</div>
+      <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Qualification</div>
+      <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Process Simulation</div>
+      <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Rain Erosion</div>
+      <!-- <div class="bg-emerald-900 border-4 p-1 rounded border-emerald-900 flex items-center text-xs text-white">Quality</div> -->
+    <!-- Mechanical Testing -->
+      <div class="bg-white border-4 p-1 rounded border-pink-900 flex items-center text-xs text-pink-900">
+        <img class="h-5 " src="./icons/mechanical.svg">
+      </div>
+
+      <div class="bg-pink-900 border-4 p-1 rounded border-pink-900 flex items-center text-xs text-white">Tension</div>
+      <div class="bg-pink-900 border-4 p-1 rounded border-pink-900 flex items-center text-xs text-white">Adhesive</div>
+      <div class="bg-pink-900 border-4 p-1 rounded border-pink-900 flex items-center text-xs text-white">Shear</div>
+      <div class="bg-pink-900 border-4 p-1 rounded border-pink-900 flex items-center text-xs text-white">Compression</div>
+      <div class="bg-pink-900 border-4 p-1 rounded border-pink-900 flex items-center text-xs text-white">Fatigue</div>
+    
+    <!-- Industries -->
+      <div class="bg-white border-4 p-1 rounded border-indigo-900 flex items-center text-xs text-white">
+        <img class="h-5 " src="./icons/plant.svg">
+      </div>
+      <div class="bg-indigo-900 border-4 p-1 rounded border-indigo-900 flex items-center text-xs text-white">Composite</div>
+      <div class="bg-indigo-900 border-4 p-1 rounded border-indigo-900 flex items-center text-xs text-white">Aerospace</div>
+      <div class="bg-indigo-900 border-4 p-1 rounded border-indigo-900 flex items-center text-xs text-white">Wind</div>
+    
+    <!-- Programming Languages -->
+      <div class="bg-white border-4 p-1 rounded border-zinc-700 flex items-center text-xs text-white">
+        <img class="h-5 " src="./icons/coding.svg">
+      </div>
+            <div id="PYTHON" class="
+              bg-sky-800
+              border-4 border-sky-800 text-xs text-white p-1 rounded
+              flex items-center
+              ">
+              Python&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/python.svg">
+              </span>
+            </div>
+            <div id="ELIXIR" class="
+              bg-fuchsia-800 border-4 border-fuchsia-800 text-xs text-white p-1 rounded
+              flex items-center
+              ">
+              Elixir&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/elixir.svg">
+              </span>
+            </div>
+            <div id="SQL" class="
+              bg-green-600
+              border-4 p-1 rounded
+              border-green-600
+              text-xs text-white
+              flex items-center
+              ">
+              SQL&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/sql.svg">
+              </span>
+            </div>
+            <div id="GIT" class="
+              border-4 border-orange-600 bg-orange-600 text-xs text-white p-1 rounded
+              flex items-center
+              ">
+              Git&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/git.svg">
+              </span>
+            </div>
+            <div id="JAVASCRIPT" class="
+              border-4 border-yellow-300 bg-yellow-300 text-xs text-black p-1 rounded
+              flex items-center
+              ">
+              JavaScript&ensp;
+              <span class="float-right">
+                <img class="h-5 border border-black" src="./icons/js.jpg">
+              </span>
+            </div>
+            <div id="DOCKER" class="
+              border-4 border-indigo-600 bg-indigo-600 text-xs text-white p-1 rounded
+              flex items-center
+              ">
+              Docker&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/docker.svg">
+              </span>
+            </div>
+
+
+ 
+    <!-- Technologies -->
+            <div id="LINUX" class="
+              border-4 border-yellow-400 bg-yellow-400 text-xs text-black p-1 rounded
+              flex items-center
+              ">
+              Linux&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/linux.svg">
+              </span>
+            </div>
+            <div id="GOLANG" class="
+              border-4 border-cyan-600 bg-cyan-600 text-xs text-white p-1 rounded
+              flex items-center
+              ">
+              Go&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/go_logo_white.svg">
+              </span>
+            </div>
+            <div id="ZIG" class="
+              p-1 rounded
+              border-4 
+              border-black
+              text-xs text-white
+              bg-black
+              flex items-center
+            ">
+              Zig&ensp;
+              <span class="float-right">
+                <img class="h-5 " src="./icons/zig.svg">
+              </span>
+            </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- ROW 3: EXPERIENCE (BOTH MATERIAL AND IT) -->
+    <div id="row-3" class="
+      p-4 
+      border-4 border-black rounded
+    ">
+      <h2 class="font-medium">PROFESSIONAL EXPERIENCE</h2>
+      <div class="mt-2">
+        <div class="space-y-3 text-sm">
+          <!-- Header row for alignment reference -->
+          <!-- <div class="grid grid-cols-12 font-medium mb-1 text-xs text-gray-500 border-b border-teal-800 pb-1"> -->
+            <!-- <div class="col-span-3">Position</div> -->
+            <!-- <div class="col-span-3">Company</div> -->
+            <!-- <div class="col-span-3">Period</div> -->
+            <!-- <div class="col-span-3">Location</div> -->
+          <!-- </div> -->
+          
+          <!-- Programming Experience with different color -->
+          <div class="text-emerald-900">
+            <div class="grid grid-cols-12 items-center">
+              <div class="col-span-4 italic font-bold">Scientific Programmer</div>
+              <div class="col-span-3"><a href="https://landscape-geoinformatics.ut.ee/">TARTU ÜLIKOOL</a></div>
+              <div class="col-span-3">Dec 2024 → now</div>
+              <div class="col-span-2">Estonia</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              font-medium
+            ">
+              Developing Elixir Phoenix GIS application from scratch • User documentation
+            </p>
+          </div>
+          
+          <div class="text-emerald-900">
+            <div class="grid grid-cols-12 items-center">
+              <div class="col-span-4 italic font-bold">Full-stack Developer</div>
+              <div class="col-span-3"><a href="https://geolynx.ee/">GEOLYNX</a></div>
+              <div class="col-span-3">Nov 2024 → May 2025</div>
+              <div class="col-span-2">Estonia</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              font-medium
+            ">
+              Developing Elixir Phoenix GIS application (MVP) from scratch
+            </p>
+          </div>
+          
+          <!-- Material Engineering Experience -->
+          <div>
+            <div class="
+              grid grid-cols-12 items-center
+              text-indigo-900
+            ">
+              <div class="col-span-4 italic font-bold">Testing Engineer</div>
+              <div class="col-span-3"><a href="https://www.lmwindpower.com/">LM WIND POWER</a></div>
+              <div class="col-span-3">2020 → 2022</div>
+              <div class="col-span-2">Denmark</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              text-indigo-900
+              font-medium
+            ">
+              Test planning and mechanical analysis • Technical support • Simulations and kinetic modeling
+              <br> • Data analysis • Root cause investigation • Rain erosion testing analyze and control
+            </p>
+          </div>
+          
+          <div>
+            <div class="
+              grid grid-cols-12 items-center
+              text-indigo-900
+            ">
+              <div class="col-span-4 italic font-bold">R&T Engineer</div>
+              <div class="col-span-3"><a href="https://www.safran-group.com/">SAFRAN COMPOSITES</a></div>
+              <div class="col-span-3">2019 → 2020</div>
+              <div class="col-span-2">France</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              text-indigo-900
+              font-medium
+            ">
+              Composites and bonding qualification • IR laser surface treatment development
+              <br> • Statistical analysis for design value studies
+            </p>
+          </div>
+          
+          <div>
+            <div class="
+              grid grid-cols-12 items-center
+              text-indigo-900
+            ">
+              <div class="col-span-4 italic font-bold">Material Engineer</div>
+              <div class="col-span-3"><a href="https://www.safran-group.com/companies/safran-nacelles">SAFRAN NACELLES</a></div>
+              <div class="col-span-3">2017</div>
+              <div class="col-span-2">France</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              text-indigo-900
+              font-medium
+            ">
+              Composite material technical support • Material/painting testing
+              <br>• Qualification for aeronautical parts and processes
+            </p>
+          </div>
+          
+          <!-- <div> -->
+            <!-- <div cl
+              ass="grid grid-cols-12 items-center
+              text-indigo-900
+            "> -->
+              <!-- <div class="col-span-4 italic font-bold">Material Engineer</div> -->
+              <!-- <div class="col-span-3"><a href="https://www.thalesgroup.com/">THALES</a></div> -->
+              <!-- <div class="col-span-3">2017</div> -->
+              <!-- <div class="col-span-2">France</div> -->
+            <!-- </div> -->
+            <!-- <p cl
+              ass="text-sm
+              text-indigo-900
+              font-medium
+             mt-1">Material and product assembly qualification</p> -->
+          <!-- </div> -->
+          
+          <div>
+            <div class="
+              grid grid-cols-12 items-center
+              text-indigo-900
+            ">
+              <div class="col-span-4 italic font-bold">Recovery Engineer</div>
+              <div class="col-span-3"><a href="https://www.safran-group.com/companies/safran-nacelles">SAFRAN NACELLES</a></div>
+              <div class="col-span-3">2016</div>
+              <div class="col-span-2">France</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              text-indigo-900
+              font-medium
+            ">
+              Material Review Board operations • Composite defect analysis • Rework of composite parts
+            </p>
+          </div>
+          
+          <div>
+            <div class="
+              grid grid-cols-12 items-center
+              text-indigo-900
+            ">
+              <div class="col-span-4 italic font-bold">R&D Engineer</div>
+              <div class="col-span-3"><a href="https://www.epsilon-composite.com/en/">EPSILON COMPOSITE</a></div>
+              <div class="col-span-3">2011 → 2014</div>
+              <div class="col-span-2">France</div>
+            </div>
+            <p class="
+              text-sm mt-1
+              text-indigo-900
+              font-medium
+            ">
+              Material characterization • Thermoset formulation • Pultrusion process simulation
+              <br>• Material qualification for multiple industries
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+
+
+<!-- ROW 4: COMBINED EDUCATION AND IT TRAINING -->
+<div id="row-4" class="
+  p-4 
+  border-4 border-black rounded
+">
+  <div class="flex justify-between">
+    <!-- IT TRAINING -->
+    <div class="
+      w-1/2 pr-4 border-r 
+    ">
+      <div class="
+        font-medium mb-1
+        text-emerald-900
+      ">IT TRAINING <span class="
+        text-sm font-normal ml-2
+        text-emerald-900
+      ">2022 → 2024</span></div>
+      <div class="
+        text-sm mb-3
+        text-emerald-900
+      ">
+        <span class="font-semibold">kood/Jõhvi</span>: Two-year full-stack and AI/ML training.
+      </div>
+      
+      <div class="
+        font-medium mb-1
+        text-pink-900
+      ">NATURAL LANGUAGES</div>
+      <div class="
+        text-sm
+        text-pink-900
+      ">
+        <strong>English</strong>: fluent • <strong>French</strong>: native
+      </div>
+    </div>
+    
+    <!-- EDUCATION -->
+    <div class="
+      w-1/2 pl-4
+      text-indigo-900
+    ">
+      <div class="font-medium mb-1">MATERIAL EDUCATION
+      <span class="
+        text-sm font-normal ml-2 
+      ">2006 → 2011</span></div>
+      <div class="text-sm mb-3">
+        <span class="font-semibold">ENSIL</span>: Material Science Engineering School (Master Degree)
+      </div>
+      <div class="text-sm mb-3">
+        <span class="font-semibold">DUT Bordeaux</span>: Material Science Technician School
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+  </div>
+</body>
+</html>
+
+

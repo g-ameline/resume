@@ -31,11 +31,17 @@
 
   * **GEOLYNX** Tartu  
     * **full-stack developer** (11/2024 → 05/2025) (20%)
-        * architected Elixir Phoenix Liveview GIS application from scratch
-        * integrated MapLibre for interactive map visualizations
-        * processed geographic data efficiently
-        * created intuitive UI for GIS operations
+      * architected Elixir Phoenix Liveview GIS application from scratch
+      * integrated MapLibre for interactive map visualizations
+      * processed geographic data efficiently
+      * created intuitive UI for GIS operations
 
+
+
+## programming education 
+
+### 2022 → 2024
+  * **kood/Jõhvi** : full stack developer training school (2 years)
 
 ## programming projects
   *All projects developed as part of the kood/Jõhvi curriculum,*   
@@ -77,31 +83,49 @@
 
   * **LM WIND POWER** Denmark   
     * **wind turbine blade testing engineer** (2020 → 2022)
-      * handled test planning
-      * provided technical support 
-      * performed simulations
+      * handled test planning and sample manufacturing
+      * provided technical support for testing operations
+      * performed simulations and kinetic modeling
+      * conducted mechanical testing and analysis
+      * utilized Python programming and Excel for data analysis
 
   * **SAFRAN COMPOSITES** France
-
-    * **R&T engineer** (2019 → 2020)
-      * testing and developing Infra Red laser surface treatment for bonding
-      * qualification of *Discontinuous Long Fiber* carbon composite
+    * **material engineer** (2019 → 2020)
+      * qualified carbon fiber composites and adhesives
+      * conducted testing and developing Infra Red laser surface treatment for bonding
+      * performed qualification of *Discontinuous Long Fiber* carbon composite
+      * handled test plan redaction and experimental results analysis
+      * conducted technical and statistical analysis for allowable design value studies
 
   * **SAFRAN NACELLES** France
     * **material engineer** (2017)
-      * material/painting testing and qualification
-      * technical support
+      * provided composite material technical support
+      * conducted material/painting testing and qualification
+      * handled qualification follow-up for composite parts
+      * drafted specifications for aeronautical parts
+      * defined mechanical criteria for structural calculations
 
-  * **SAFRAN NACELLES** France
-    * **recovery engineer** (2016) 
-      * performed defect analysis and support on damaged nacelle part recovery
+  * **THALES** France
+    * **material engineer** (2017)
+      * performed material and product assembly qualification
+
+  * **SAFRAN NACELLES** France (via MATIS)
+    * **MRB engineer / recovery engineer** (2016) 
+      * managed Material Review Board operations
+      * performed defect analysis and support on damaged composite nacelle recovery
+      * handled rework of composite parts and composite defects analysis
+      * utilized ERP software for production support
+      * managed qualification of recovered products
 
   * **EPSILON COMPOSITE** France
     * **R&D engineer** (2011 → 2014) 
-      * thermoset formulation 
-      * process simulation
-      * composite materials testing
-
+      * conducted material characterization and expertise through mechanical, chemical, and thermal testing
+      * performed thermoset formulation and polymer resin development
+      * handled process simulation and modeling using VBA for chemical and thermal forecasting
+      * conducted composite materials testing including DSC, DMA, microscopy, thermal aging, fatigue, and shear testing
+      * managed material qualification for aerospace, building, and automotive industries
+      * wrote testing procedures and managed material databases
+      * conducted statistical analysis of process variations and toxic waste management
 
 
 ## material engineer education 
